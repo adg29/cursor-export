@@ -1,7 +1,7 @@
 {
   "name": "cursor-export",
-  "version": "1.0.6",
-  "description": "Export Cursor chat and composer history",
+  "version": "1.1.0",
+  "description": "Export Cursor chats, composers (reconstructed from global storage), and agents",
   "main": "index.js",
   "bin": {
     "cursor-export": "cli.js"
@@ -13,6 +13,7 @@
   ],
   "scripts": {
     "dev": "node cli.js",
+    "list": "node cli.js --list",
     "deploy": "npm publish"
   },
   "keywords": [
